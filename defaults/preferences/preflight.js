@@ -1,0 +1,1 @@
+pref("extensions.selenium-ide.preflight.performpreflight",true);

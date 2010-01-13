@@ -1,0 +1,18 @@
+content preflight  chrome/content/
+
+locale  preflight  en-US chrome/locale/en-US/
+
+# options menu
+overlay chrome://selenium-ide/content/selenium-ide-common.xul chrome://preflight/content/view/optionsOverlay.xul
+
+# toolbar button
+overlay chrome://selenium-ide/content/selenium-ide.xul chrome://preflight/content/view/toolbarOverlay.xul
+
+# sidebar button
+overlay chrome://selenium-ide/content/selenium-ide-sidebar.xul chrome://preflight/content/view/sidebarToolbarOverlay.xul
+
+# custom extension(s)
+overlay chrome://selenium-ide/content/selenium-ide-overlay.xul chrome://preflight/content/extensions/extension-loader.xul
+
+# custom format(s)
+overlay chrome://selenium-ide/content/selenium-ide-overlay.xul chrome://preflight/content/formats/format-loader.xul
