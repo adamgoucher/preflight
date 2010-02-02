@@ -1,6 +1,9 @@
 content preflight  chrome/content/
 
-locale  preflight  en-US chrome/locale/en-US/
+locale preflight en-US chrome/locale/en-US/
+locale preflight fr-FR chrome/locale/fr-FR/
+locale preflight ja-JP chrome/locale/ja-JP/
+locale preflight pt-BR chrome/locale/pt-BR/
 
 # options menu
 overlay chrome://selenium-ide/content/selenium-ide-common.xul chrome://preflight/content/view/optionsOverlay.xul
